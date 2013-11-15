@@ -4,9 +4,13 @@ rvm:
 - 2.0.0
 services:
 - memcached
+before_script:
+- echo "stats" | nc localhost 11211
 script:
 - bundle exec rspec
 - bundle exec rspec
 - bundle exec rspec
 - bundle exec rspec
 - bundle exec rspec
+after_failure:
+- echo "stats" | nc localhost 11211
