@@ -4,5 +4,5 @@ gem 'dalli'
 gem 'travis'
 gem 'rspec'
 
-# gem 'kgio','~> 2.6'
-gem 'raindrops', '~> 0.7'
+gem 'kgio','~> 2.6'
+# gem 'raindrops', '~> 0.7'
