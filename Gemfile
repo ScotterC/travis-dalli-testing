@@ -4,4 +4,4 @@ gem 'dalli'
 gem 'travis'
 gem 'rspec'
 
-gem 'unicorn', '~> 4.7'
+gem 'unicorn', '~> 4.7', require: false
