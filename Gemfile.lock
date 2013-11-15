@@ -38,7 +38,6 @@ GEM
       slop (~> 3.4)
     pusher-client (0.4.0)
       websocket (~> 1.0.0)
-    rack (1.5.2)
     raindrops (0.12.0)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -71,7 +70,6 @@ PLATFORMS
 DEPENDENCIES
   dalli
   kgio (~> 2.6)
-  rack
   raindrops (~> 0.7)
   rspec
   travis
