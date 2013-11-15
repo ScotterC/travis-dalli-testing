@@ -9,8 +9,3 @@ script:
 - bundle exec rspec
 - bundle exec rspec
 - bundle exec rspec
-- bundle exec rspec
-- bundle exec rspec
-- bundle exec rspec
-- bundle exec rspec
-- bundle exec rspec

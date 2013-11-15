@@ -1,5 +1,2 @@
-travis-dalli-testing
-====================
-
-Narrowing down a bug with travis and dalli
-possible ring error
+In Travis.  With Unicorn 4.6.2 and Dalli installed
+Dalli will fail to connect to memcached
