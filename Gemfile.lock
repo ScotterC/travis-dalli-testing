@@ -22,7 +22,6 @@ GEM
       net-http-persistent (>= 2.7)
       net-http-pipeline
     highline (1.6.20)
-    kgio (2.8.1)
     launchy (2.4.0)
       addressable (~> 2.3)
     method_source (0.8.2)
@@ -69,7 +68,6 @@ PLATFORMS
 
 DEPENDENCIES
   dalli
-  kgio (~> 2.6)
   raindrops (~> 0.7)
   rspec
   travis
