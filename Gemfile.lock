@@ -63,10 +63,6 @@ GEM
       typhoeus (~> 0.6)
     typhoeus (0.6.6)
       ethon (~> 0.6.1)
-    unicorn (4.7.0)
-      kgio (~> 2.6)
-      rack
-      raindrops (~> 0.7)
     websocket (1.0.7)
 
 PLATFORMS
@@ -74,6 +70,8 @@ PLATFORMS
 
 DEPENDENCIES
   dalli
+  kgio (~> 2.6)
+  rack
+  raindrops (~> 0.7)
   rspec
   travis
-  unicorn (~> 4.7)
